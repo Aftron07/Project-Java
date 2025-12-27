@@ -5,10 +5,7 @@ class  Area1 {
 	
 public Area1(int r) {
 	this.r=r;
-	
-	
 }
-
 
  float disp() {
 	float area =pi*r*r;
