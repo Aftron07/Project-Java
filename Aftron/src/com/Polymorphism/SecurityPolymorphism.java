@@ -1,19 +1,19 @@
 
-package com.Inheritance;
-public class SecurityForces{
+package com.Polymorphism;
+
+
+public class SecurityPolymorphism{
 	public static void main (String args[]) {
-		Army army=new Army();
-		System.out.print("");
-		army.Protect();
-		army.Tank();
 		
-		Navy navy=new Navy();
-		navy.Protect();
-		navy.Ship();
+		duty(new Army() );
+		duty(new Navy() );
+		duty(new AirForce() );
 		
-		AirForce air=new AirForce();
-		air.Protect();
-		air.Jets();
+		
+	}
+	static void duty(SecurityForcess p) {
+		p.Protect();
+		
 	}
 
 }
