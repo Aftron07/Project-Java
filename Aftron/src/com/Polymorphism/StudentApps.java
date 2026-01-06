@@ -5,10 +5,10 @@ public class StudentApps {
 		Student s = new Student();
 		s=null;
 		Bike b =new Bike("Honda",150000, "Black");
-//		s.hasA(b);
+		s.hasA(b);
 		System.out.println("===========================");
-//		System.out.println(s.h.getJob()); //this is way to get access of object which is inside an object 
-//		System.out.println(s.h.getWeight());
+		System.out.println(s.h.getJob()); //this is way to get access of object which is inside an object 
+		System.out.println(s.h.getWeight());
 	}
 }
 

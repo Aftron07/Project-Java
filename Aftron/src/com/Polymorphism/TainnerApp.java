@@ -12,7 +12,7 @@ public class TainnerApp{
 	}
 	
 }
-class Trainer{
+ class Trainer{
 	void Teach(){
 		
 		System.out.println("To protect");
